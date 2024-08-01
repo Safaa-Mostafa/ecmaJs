@@ -1,0 +1,35 @@
+.userDesign {
+    background-color: antiquewhite;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 100px;
+    padding: 20px;
+    margin:10px;
+
+}
+.userDesign:hover{
+    background-color: rgb(195, 161, 118);
+transition: 1s all;
+}
+
+header{
+    display: flex;
+    flex-wrap: nowrap;
+}
+section {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    margin-top: 10px;
+
+}
+
+section div {
+    padding: 20px;
+    background-color: rgb(103, 61, 9);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 80%;
+    color: #fff;
+    margin:10px;
+
+}
